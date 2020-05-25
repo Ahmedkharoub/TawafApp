@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".TimeHajjActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/padding_size"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bground"
+                android:id="@+id/second_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/textview119"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                style="@style/padding_size"
+                android:id="@+id/place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="16dp"
+                android:text="@string/textview120"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#00008B"
+                android:textSize="30sp"
+                android:background="@drawable/bground"/>
+
+            <TextView
+                style="@style/padding_size"
+                android:id="@+id/info_place"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="8dp"
+                android:text="@string/textview121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/bground"/>
+
+
+
+            <TextView
+                style="@style/padding_size"
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/textview122"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#00008B"
+                android:textSize="30sp"
+                android:background="@drawable/bground"/>
+
+            <TextView
+                style="@style/padding_size"
+                android:id="@+id/info_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/textview123"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/bground"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

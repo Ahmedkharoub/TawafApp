@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Mahdy.tawafguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kaaba"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kaaba"
+        android:supportsRtl="true"
+        android:textDirection="anyRtl"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DiffHajjActivity"
+            android:label="@string/textview155">
+
+        </activity>
+        <activity
+            android:name=".HajjFavoActivity"
+            android:label="@string/textview150" />
+        <activity
+            android:name=".TypeHajjActivity"
+            android:label="@string/textview132" />
+        <activity
+            android:name=".InfoHajjActivity"
+            android:label="@string/hajj" />
+        <activity
+            android:name=".TimeHajjActivity"
+            android:label="@string/textview118" />
+        <activity
+            android:name=".WomanOmeraActivity"
+            android:label="@string/textview111" />
+        <activity
+            android:name=".DontEhramActivity"
+            android:label="محظورات الإحرام" />
+        <activity
+            android:name=".OmarForDeadActivity"
+            android:label="عمرة عن الميت" />
+        <activity
+            android:name=".InfoomraActivity"
+            android:label="@string/omra" />
+        <activity
+            android:name=".MeqatHaramActivity"
+            android:label="@string/textview8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TashreActivity"
+            android:label="@string/textview32"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TashreqActivity"
+            android:label="@string/textview31" />
+        <activity
+            android:name=".ZoElhejjaActivity"
+            android:label="@string/textview30"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MozdalefaActivity"
+            android:label="@string/textview29" />
+        <activity
+            android:name=".ArafaActivity"
+            android:label="@string/textview28"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TawreaActivity"
+            android:label="@string/textview27"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HalqActivity"
+            android:label="الحلق أو التقصير" />
+        <activity
+            android:name=".SaieActivity"
+            android:label="السّعي بين الصفا والمروة"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TawafActivity"
+            android:label="الطّواف"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EhramActivity"
+            android:label="الإحرام"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationActivity"
+            android:label="@string/botton4"
+            android:textDirection="anyRtl" />
+        <activity
+            android:name=".AdiaActivity"
+            android:label="@string/botton3"
+            android:textDirection="anyRtl" />
+        <activity
+            android:name=".HajjActivity"
+            android:label="@string/botton2"
+            android:textDirection="anyRtl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OmraActivity"
+            android:label="@string/botton1"
+            android:textDirection="anyRtl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SecondScreen" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

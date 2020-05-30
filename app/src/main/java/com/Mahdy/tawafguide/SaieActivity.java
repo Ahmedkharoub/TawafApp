@@ -24,9 +24,15 @@ public class SaieActivity extends AppCompatActivity {
         Uri uri = Uri.parse(videopath);
         videoView2.setVideoURI(uri);
         //videoView2.findFocus();
-        //videoView2.start();
-        MediaController mediaController = new MediaController(this);
+        videoView2.start();
+        final MediaController mediaController = new MediaController(this);
         videoView2.setMediaController(mediaController);
         mediaController.setAnchorView(videoView2);
+        videoView2.post(new Runnable() {
+            @Override
+            public void run() {
+                mediaController.show(2000);
+            }
+        });
     }
 }

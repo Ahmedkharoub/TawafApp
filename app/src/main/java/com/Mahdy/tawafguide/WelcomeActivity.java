@@ -22,7 +22,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         mediaPlayer = MediaPlayer.create(WelcomeActivity.this, R.raw.alsafawalmarwa);
-//        mediaPlayer.start();
+        mediaPlayer.start();
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

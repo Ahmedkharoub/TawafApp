@@ -19,6 +19,8 @@
             android:layout_height="350dp"
             android:fitsSystemWindows="true"
             app:contentScrim="?colorPrimary"
+            app:collapsedTitleTextAppearance="@style/HeaderFont"
+            app:expandedTitleTextAppearance="@style/HeaderFont"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 

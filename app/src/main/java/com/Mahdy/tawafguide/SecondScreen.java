@@ -1,17 +1,19 @@
 package com.Mahdy.tawafguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.zip.Inflater;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
-public class SecondScreen extends AppCompatActivity {
+public class
+SecondScreen extends AppCompatActivity {
     private Button omra;
     private Button hajj;
     private Button adia;
@@ -21,6 +23,7 @@ public class SecondScreen extends AppCompatActivity {
     protected void onCreate ( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_screen);
+        findViewById(R.id.action_bar).setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
         omra = findViewById(R.id.omra);
         hajj = findViewById(R.id.hajj);
         adia = findViewById(R.id.adia);
@@ -78,5 +81,17 @@ public class SecondScreen extends AppCompatActivity {
     public boolean onCreateOptionsMenu ( Menu menu ) {
         getMenuInflater().inflate(R.menu.menu_xml,menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_about_me:
+                Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://drive.google.com/file/d/1wecT4iChZHd_7UWGBlJ-IAe3yx4BCN9D/view?usp=sharing"));
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

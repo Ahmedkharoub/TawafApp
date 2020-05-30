@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/About_Me" android:title="About Me"></item>
-
+    <item android:id="@+id/action_about_me" android:title="حول المطور"></item>
 </menu>

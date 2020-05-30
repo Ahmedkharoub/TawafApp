@@ -17,7 +17,9 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@style/HeaderFont"
             app:contentScrim="?colorPrimary"
+            app:expandedTitleTextAppearance="@style/HeaderFont"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
@@ -35,12 +37,10 @@
                 android:id="@+id/tool_bar"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
-                android:theme="@style/AppTheme.AppBarOverlay"
-                android:textDirection="rtl"
                 android:layoutDirection="rtl"
-                app:title="@string/botton1"
-                />
-
+                android:textDirection="rtl"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:title="@string/botton1" />
 
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>

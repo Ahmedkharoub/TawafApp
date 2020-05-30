@@ -78,6 +78,7 @@ public class Tab1 extends Fragment {
                                Bundle savedInstanceState )
 
     {
+        // I can't hear you :)
         // Inflate the layout for this fragment
 
         View view = inflater.inflate(R.layout.fragment_tab1, container, false);

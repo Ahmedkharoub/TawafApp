@@ -16,12 +16,16 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
         <item name="android:fontFamily">@font/font</item>
-        /// change your font
     </style>
 <style name="padding_size">
     <item name="android:padding">8dp</item>
+    <item name="android:lineSpacingMultiplier">1.2</item>
+    <item name="android:lineSpacingExtra">2dp</item>
 </style>
     <style name="CustomText" parent="@style/Base.TextAppearance.AppCompat.Title">
         <item name="android:textSize">28sp</item>
+    </style>
+    <style name="HeaderFont" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="fontFamily">@font/jozor</item>
     </style>
 </resources>

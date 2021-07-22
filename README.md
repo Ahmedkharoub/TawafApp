@@ -1,0 +1,2 @@
+# TawafApp
+The application has the steps of Hajj and Umrah in detail to help pilgrims and Umrah performers with performing the correct rituals, which start from Ihram to the end of the rituals, whether it is in Hajj or Umrah. The application also contains some prayers the performer could recite during the rituals, such as the the prayer of circumambulating during Umrah or throwing stones during Hajj and others

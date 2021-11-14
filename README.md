@@ -1,5 +1,6 @@
 # TawafApp
 (التطبيق به خطوات الحج والعمرة بالتفصيل لمساعدة الحجاج والمعتمرين فى أداء المناسك الصحيحة والتي تبدأ من الإحرام إلى نهاية المناسك سواء كانت فى الحج أو العمرة وهناك بعض المعلومات العامة التي من الممكن أن تساعد في تجنب بعض الأخطاء ولمعرفة أشياء أخرى مثل كيفية أداء العمرة عن الميت وهناك بعض الأدعية المحبب الدعاء بها أثناء تأدية المناسك مثل دعاء الطواف في العمرة أو رمي الجمرات فى الحج و غيرهم.)
+
 The application has the steps of Hajj and Umrah in detail to help pilgrims and Umrah performers with performing the correct rituals, which start from Ihram to the end of the rituals, whether it is in Hajj or Umrah. The application also contains some prayers the performer could recite during the rituals, such as the the prayer of circumambulating during Umrah or throwing stones during Hajj and others
 
 ![MainScreen](https://lh3.googleusercontent.com/Iyk2_TOtFUgyHRoPyM6X4cL6BsGG7oG4EGLYzCglYNtlyeibc2baKbl3qKHzHWN30Cs1)
